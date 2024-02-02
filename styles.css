@@ -26,10 +26,12 @@ ul {
 a {
     color: green;
     font-size: 30px;
+    text-decoration: none;
 }
 
 a:hover {
     color: red;
+    text-decoration: underline;
 }
 
 a:active {
