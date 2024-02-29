@@ -5,32 +5,67 @@
 
 body {
     background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+#content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: absolute;
+    top: 25%;
+    border: 2px solid brown;
+    padding: 8px 50px;
+}
+
+.box {
+    display: block;
+    text-align: center;
 }
 
 .title {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
-    text-decoration: underline;
+}
+
+.titleword {
+    display: block;
+    width: 350px;
+    margin: -30px 0;
+}
+.title-word1 {
+    text-align: right;
+}
+.title-word2 {
+    text-align: left;
 }
 
 .subtitle {
     font-size: 40px;
-    padding-bottom: 100px;
-    font-weight: 100;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 ul {
     list-style: none;
+    padding: 0;
+}
+
+button {
+    border-radius: 15px;
+    background-color: aliceblue;
 }
 
 a {
-    color: green;
+    color: black;
     font-size: 30px;
     text-decoration: none;
 }
 
 a:hover {
-    color: red;
+    color: brown;
     text-decoration: underline;
 }
 
